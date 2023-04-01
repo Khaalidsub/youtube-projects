@@ -25,6 +25,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/configurations/tsconfig.app.json"
       }
+    },
+    "websocketsevents": {
+      "type": "application",
+      "root": "apps/websocketsevents",
+      "entryFile": "main",
+      "sourceRoot": "apps/websocketsevents/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/websocketsevents/tsconfig.app.json"
+      }
     }
   }
 }
