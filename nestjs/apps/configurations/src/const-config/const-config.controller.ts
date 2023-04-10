@@ -11,11 +11,6 @@ export class ConstConfigController {
 
     databaseUrl: string;
   } {
-    const nest = this.configService.get('nest');
-    const database = this.configService.get('database');
-    return {
-      port: nest.port,
-      databaseUrl: database.databaseUrl,
-    };
+    return null;
   }
 }
